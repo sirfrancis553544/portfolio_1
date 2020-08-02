@@ -161,3 +161,23 @@ a:hover {
 .red {
   color: red;
 }
+
+@media (max-width: 400px) {
+  body {
+    width: auto;
+  }
+  .body-img {
+    width: 200px;
+    height: 200px;
+  }
+  .my-img {
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
